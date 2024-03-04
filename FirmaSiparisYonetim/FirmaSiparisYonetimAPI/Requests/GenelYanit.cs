@@ -2,6 +2,8 @@
 {
     public class GenelYanit
     {
+        //This is a very nice approach to standardize your returns, nice job.
+        //Declaring this class as a generic instead of using "object Data" would be a better approach.
         public object Data { get; set; }
         public bool Basarili { get; set; }
         public string Mesaj { get; set; }
